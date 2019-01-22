@@ -14,9 +14,9 @@
   <element name="color">
     <complexType>
       <sequence>
-        <element name="r" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-        <element name="g" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-	<element name="b" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
+        <element name="r" type="nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+        <element name="g" type="nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+	<element name="b" type="nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
       </sequence>
     </complexType>
   </element>
@@ -32,8 +32,8 @@
   <element name="vertice">
     <complexType>
       <sequence>
-        <element name="x" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-        <element name="y" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
+        <element name="x" type="nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
+        <element name="y" type="nonNegativeInteger" minOccurs="1" maxOccurs="1"/>
       </sequence>
     </complexType>
   </element>

@@ -4,7 +4,14 @@ import java.io.IOException;
 import java.net.*;
 
 /**
- * détermine l'adresse IP de la machine locale et l'affiche sur la console
+ * Représente le serveur instanciable.
+ * <p>
+ * Avec la configuration actuelle, le serveur démarre sur le serveur local au
+ * port 9003. La classe dispose d'un compteur de connexions qui agit comme
+ * identifiant pour les clients, afin qu'il n'y ait pas de conflit sur les
+ * figures importées.
+ * 
+ * @author Thomas
  * */
 public class Server extends Thread {
     private int noConnexion;

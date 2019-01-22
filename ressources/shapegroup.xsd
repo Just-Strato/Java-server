@@ -1,39 +1,5 @@
 <?xml version="1.0"?>
 
 <schema xmlns="http://www.w3.org/2001/XMLSchema">
-	<element name="shape">
-    <complexType>
-      <sequence>
-        <element name="color" minOccurs="1" maxOccurs="1"/>
-		<element name="vertices" minOccurs="1" maxOccurs="1"/>
-      </sequence>
-    </complexType>
-  </element>
-  
-  <element name="color">
-    <complexType>
-      <sequence>
-        <element name="r" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-        <element name="g" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-		<element name="b" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-      </sequence>
-    </complexType>
-  </element>
-  
-  <element name="vertices">
-    <complexType>
-      <sequence>
-        <element name="vertice" minOccurs="1" maxOccurs="unbounded"/>
-      </sequence>
-    </complexType>
-  </element>
-  
-  <element name="vertice">
-    <complexType>
-      <sequence>
-        <element name="x" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-        <element name="y" type="positiveInteger" minOccurs="1" maxOccurs="1"/>
-      </sequence>
-    </complexType>
-  </element>
+    <element name="shapegroup"/>
 </schema>
